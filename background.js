@@ -1,4 +1,5 @@
-const API_KEY = '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'; // Replace with your actual API key
+require('dotenv').config();
+const API_KEY = process.env.API_KEY;
 
 const API_URL = 'https://api.openai.com/v1/chat/completions';
 
